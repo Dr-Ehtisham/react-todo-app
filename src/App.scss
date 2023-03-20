@@ -1,0 +1,18 @@
+@import "./scss/bootstrap";
+@import "./scss/auth";
+@import "./scss/home";
+@import "./scss/libraries";
+@import "./scss/login";
+@import "./scss/register";
+
+
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main{
+  flex: 1 0 auto;
+}
